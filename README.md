@@ -2,6 +2,37 @@
 
 ## 📋 Project: Supply Chain Emissions Predictor - ML to Web Application
 
+---
+
+### 🚀 **QUICK ACCESS - LIVE DEMO & CODE**
+
+<div align="center">
+
+### 🌐 **[LIVE WEB APPLICATION ➤](https://shell-edunet-skills4future-aicte-internship-week-2-app-app-wj7.streamlit.app/)**
+
+### 💻 **[GITHUB REPOSITORY ➤](https://github.com/datta30/Shell-Edunet-Skills4Future-AICTE-Internship-week-2-streamlit-app)**
+
+---
+
+**📦 Project Submission:** `week2.zip`
+
+</div>
+
+---
+
+### 📁 **Project File Structure:**
+```
+week2/
+├── streamlit_app.py          # Main web application
+├── requirements.txt          # Dependencies for deployment
+├── models/
+│   ├── final_model.pkl      # Trained Random Forest model
+│   └── scaler.pkl           # Feature scaling transformer
+└── README.md                # This documentation
+```
+
+---
+
 ### **Original State:**
 - **Jupyter notebook implementation** with Random Forest Regressor
 - **Dataset**: US Industries & Commodities supply chain emissions (2010-2016)
@@ -24,10 +55,10 @@
 - **Frontend Framework**: Streamlit with responsive UI components
 - **Backend**: Python-based prediction pipeline with error handling
 - **Data Processing**: Real-time feature scaling and model inference
-- **Deployment**: 
+- **Deployment Architecture**: 
   - **Platform**: Streamlit Community Cloud
-  - **Live Application**: [Streamlit Web App](https://shell-edunet-skills4future-aicte-internship-week-2-app-app-wj7.streamlit.app/)
-  - **Source Code**: [GitHub Repository](https://github.com/datta30/Shell-Edunet-Skills4Future-AICTE-Internship-week-2-streamlit-app)
+  - **CI/CD**: GitHub integration with automatic deployment
+  - **Performance**: Sub-second prediction response times
 
 #### **3. 🎯 Advanced User Experience Design**
 - **Interactive Parameter Controls**: Sliders, dropdowns with real-time validation
@@ -55,10 +86,10 @@
 
 ### **Technical Stack:**
 ```
-Frontend:     Streamlit (Python-based UI framework)
-ML Pipeline:  scikit-learn, pandas, numpy
+Frontend:      Streamlit (Python-based UI framework)
+ML Pipeline:   scikit-learn, pandas, numpy
 Visualization: Plotly (interactive charts)
-Deployment:   Streamlit Cloud, GitHub integration
+Deployment:    Streamlit Cloud, GitHub integration
 Model Storage: joblib serialization
 Data Processing: StandardScaler, feature engineering
 ```
